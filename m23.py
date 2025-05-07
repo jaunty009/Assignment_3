@@ -71,4 +71,17 @@
 # CUBE OF 100 NUMBERS USING MULTIPROCESSING
 
 
+# import multiprocessing
+
+# def print_cube(n):
+#     cube = n * n * n    
+#     print(f"The square of {n} is {cube}")
+
+# if __name__ == "__main__":
+
+#     for i in range(1, 101):
+#         p = multiprocessing.Process(target=print_cube, args=(i,))
+#         p.start()
+#         p.join()
+
 
