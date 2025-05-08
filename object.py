@@ -65,10 +65,10 @@
 
 
 
-class person:
-    def __init__(self):
-        self.name = "jaunty"
-        self.age = 23
-my_details = person()
-print(my_details.name)
-print(my_details.age)
+# class person:
+#     def __init__(self):
+#         self.name = "jaunty"
+#         self.age = 23
+# my_details = person()
+# print(my_details.name)
+# print(my_details.age)
