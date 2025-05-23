@@ -4,45 +4,63 @@
   <head>
     <title> my first html page </title> 
   </head>
+  <body>
     <h1> Self Introduction </h1>
     <h2> Jauntysun Pilli </h2>
-  <body>
 
     <div class="box">
-    <main>
-    <p> I am an Indian. I persued masters in youngstown state university. I am a senior webdeveloper in python. I worked at <i>KENNEDY TECH SOLUTIONS</i>. I had 4 GPA in my masters. I am intrested in politics. I am present CEO of <b>PYVA Tech Solutions</b>. I am highly intrested in political schemes. I am also intrested in history of <b>INDIA </b> . As an INDIAN i want to make my country <b>THE GREATEST</b>. </p>
-    <p>I had nearly about 600 employees that are working in my company. This was started in 2022 december. The annual income of the company is approximately about 20 million $. This income is 200% of the initial budget of my company.</p>
-    <p> My company has three partners namely Madhu, Praveen and venu. we also have nearly 700 share holders in the company who are helping our company to make it great</p>
-
-    </main>
+      <main>
+        <p> I am an Indian. I persued masters in youngstown state university. I am a senior webdeveloper in python. I worked at <i>KENNEDY TECH SOLUTIONS</i>. I had 4 GPA in my masters. I am intrested in politics. I am present CEO of <b>PYVA Tech Solutions</b>. I am highly intrested in political schemes. I am also intrested in history of <b>INDIA </b> . As an INDIAN i want to make my country <b>THE GREATEST</b>. </p>
+        <p>I had nearly about 600 employees that are working in my company. This was started in 2022 december. The annual income of the company is approximately about 20 million $. This income is 200% of the initial budget of my company.</p>
+        <p> My company has three partners namely Madhu, Praveen and venu. we also have nearly 700 share holders in the company who are helping our company to make it great</p>
+      </main>
     </div>
 
-    <a href="https://www.facebook.com/jaunty.pilli/"> Click here to go to my facebook page </a>
-    <br>
-    
+    <div class="button-group">
+      <a href="https://www.facebook.com/jaunty.pilli/" class="button-link">Facebook Profile</a>
+      <button type="button">Contact Me</button>
+      <button class="custom-button">Learn More</button>
+    </div>
     
     <img src="https://scontent.fosu2-1.fna.fbcdn.net/v/t39.30808-6/464721212_8556372081139824_1268344442547708579_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=fZCYHgCLBJYQ7kNvwEkYwAJ&_nc_oc=AdmNQTnicY0MWVCO7UbByKZ73Tr2fvSPcyxI-6RWWbiicRRg1QedLK8VvtThYq81ftaA7jRn2VfKMmqEQtBar7l0&_nc_zt=23&_nc_ht=scontent.fosu2-1.fna&_nc_gid=fuLAm5zhG9IAy-M7RPS_PA&oh=00_AfIQdRWx_vKD_TJr7i8cHXPPg8T8arUCnG-YUnpto5aQsw&oe=6832CCAE" alt="Image" width="200" height="200">
+    
+     <div class="grid-container">
+      <div class="grid-item">
+        <h3>Web Development</h3>
+        <p>front-end and back-end development</p>
+      </div>
+      <div class="grid-item">
+        <h3>Python Programming</h3>
+        <p>Python language for applications</p>
+      </div>
+      <div class="grid-item">
+        <h3>Data Analysis</h3>
+        <p> Data usage</p>
+      </div>
+    </div>
 
-    <form>
-    <label1 for="name">Name:</label>
-    <input type="text" id="name" name="name"><br></br>
+    <div class="form-container">
+      <h3>Sign in:</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
 
-    <label1 for="email">Email:</label>
-    <input type="email" id="email"><br></br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
 
-    <label1 for="password">password</label>
-    <input type="password" id="password"><br></br>
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
 
-    <button type="submit">Submit</button>
-  </form>
-  <br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
 
   <ul>
     <li> I am a senior web developer </li>
     <li> I am a python developer </li>
     <li> I am a data analyst </li>
   </ul>
-    <br>
+
    <table border="1">
     <tr>
       <th>Name</th>
@@ -54,10 +72,13 @@
     </tr>
 
    </table>
-  </body><br>
+  </body>
   <br>
-
+  
+  
+  <div>
   <footer>
     This content is sample content for more updates please use the link given above
   </footer>
+  </div>
 </html>
